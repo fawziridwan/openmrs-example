@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_2</name>
+   <tag></tag>
+   <elementGuidId>028ad10a-08b5-49bd-a854-5c02efc8165b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dataCanvas > div > p:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataCanvas']/div/p[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>5d84d95a-9feb-4f09-82ac-60f3fdd00903</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Birthdate: 14, June, 1995</value>
+      <webElementGuid>005c794e-e262-4ef0-a3e2-513a76794a6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataCanvas&quot;)/div[1]/p[3]</value>
+      <webElementGuid>7c7e354a-830a-41fb-b93e-b666c8a2f9bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataCanvas']/div/p[3]</value>
+      <webElementGuid>7a107cfd-f3da-4146-a222-80fac3628a60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/following::p[1]</value>
+      <webElementGuid>e67a75bd-523b-4e02-9339-e9b2c83cd623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/following::p[2]</value>
+      <webElementGuid>bdf24e4c-d25e-4823-95a1-93826819a71b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/preceding::p[1]</value>
+      <webElementGuid>81c8469f-3fe7-4848-9909-8110cb4b22fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='14, June, 1995']/parent::*</value>
+      <webElementGuid>661adbda-b3a3-45df-995f-ad42c6652e3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p[3]</value>
+      <webElementGuid>603705f2-e49d-482f-b357-a2229dd99705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Birthdate: 14, June, 1995' or . = 'Birthdate: 14, June, 1995')]</value>
+      <webElementGuid>89da3073-632d-40a7-9207-c1134ccdd6b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

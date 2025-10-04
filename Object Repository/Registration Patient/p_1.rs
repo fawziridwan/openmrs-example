@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_1</name>
+   <tag></tag>
+   <elementGuidId>51f04981-ee68-4737-835b-839e7ce81700</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dataCanvas > div > p:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataCanvas']/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>bbdce9b7-b7aa-4e00-bd9f-bd26b51d7631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gender: Male</value>
+      <webElementGuid>b657267d-c758-4bb4-b557-73d9f605f4fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataCanvas&quot;)/div[1]/p[2]</value>
+      <webElementGuid>866b60e9-828b-4028-9d85-2c63c0c344aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataCanvas']/div/p[2]</value>
+      <webElementGuid>6ff778bf-a0f3-4bf4-ad2e-86f7c656565c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/following::p[1]</value>
+      <webElementGuid>dc87df22-6198-4100-91e2-1d7e1ed3d42a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Who is the patient related to?'])[1]/following::p[5]</value>
+      <webElementGuid>0a28fde4-137f-4423-b424-2c35355ebfa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthdate:'])[1]/preceding::p[1]</value>
+      <webElementGuid>b1817beb-452c-4fe7-b02b-55d473f8120e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p[2]</value>
+      <webElementGuid>33fdcbc1-d1d8-45d0-bb68-c700b5f6d7b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Gender: Male' or . = 'Gender: Male')]</value>
+      <webElementGuid>7a86fd60-d90f-4e96-aeae-b1783054cd67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

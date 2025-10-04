@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Registration Desk_icon-home small</name>
+   <tag></tag>
+   <elementGuidId>4fa00aad-e64e-413d-a2b0-18a6aac93c1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-home.small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='breadcrumbs']/li/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>2ce9b990-5b39-4ea7-8d8d-d29106db375a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-home small</value>
+      <webElementGuid>00542461-d848-4950-b969-ffa040f28643</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;breadcrumbs&quot;)/li[1]/a[1]/i[@class=&quot;icon-home small&quot;]</value>
+      <webElementGuid>bc7f6415-0058-4d4d-8821-cf9c8090204e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='breadcrumbs']/li/a/i</value>
+      <webElementGuid>233d1643-f308-446f-b645-e2814e5f2021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/ul/li/a/i</value>
+      <webElementGuid>fe2cadd2-9b65-4cf4-aed7-58fd17539e01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

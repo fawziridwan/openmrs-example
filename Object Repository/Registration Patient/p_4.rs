@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_4</name>
+   <tag></tag>
+   <elementGuidId>f45ea0af-e311-4604-a894-ff2daa2adc98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div > p:nth-of-type(5)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataCanvas']/div/p[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>fe249b8f-4a19-4386-9360-623c8cfbee86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone Number: 08221659271</value>
+      <webElementGuid>6fa6c8b5-950b-4be4-bc04-dd6ec239d590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataCanvas&quot;)/div[1]/p[5]</value>
+      <webElementGuid>22b76e65-adb7-48c7-ad9d-9a07e78a137b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataCanvas']/div/p[5]</value>
+      <webElementGuid>236879f8-2758-4cfe-9e6b-e51baab3bdb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/following::p[1]</value>
+      <webElementGuid>a696b512-7a80-4cc3-a354-7eb91f5252ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthdate:'])[1]/following::p[2]</value>
+      <webElementGuid>5545c2da-7447-4ed8-b272-604248ae6be3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relatives:'])[1]/preceding::p[1]</value>
+      <webElementGuid>4ec4419d-754b-446f-8773-d5ad760c6242</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='08221659271']/parent::*</value>
+      <webElementGuid>ee4629d2-6040-4ab8-bb05-ef6cd523a933</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p[5]</value>
+      <webElementGuid>eeba448b-85f6-4514-b478-006eda16c476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Phone Number: 08221659271' or . = 'Phone Number: 08221659271')]</value>
+      <webElementGuid>b2d72c19-a325-4fc4-b7d4-d5d3d978ac23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

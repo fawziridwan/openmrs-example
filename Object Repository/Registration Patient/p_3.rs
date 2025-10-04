@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_3</name>
+   <tag></tag>
+   <elementGuidId>cdc2b9fe-a7c0-4a2c-9d22-bd5d23b82b3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div > p:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataCanvas']/div/p[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b5c8c6f7-4aa3-494d-9090-bdf9b66fb515</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Address: jl abc no 1, bandung, jl bcd no 2, jakarta, Bandung, West Java, Indonesia, 40981</value>
+      <webElementGuid>74d592aa-2cde-41c1-8653-5b4f88145d0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataCanvas&quot;)/div[1]/p[4]</value>
+      <webElementGuid>bb14cd64-3c6d-49f9-b367-eea1f06482d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataCanvas']/div/p[4]</value>
+      <webElementGuid>b8b02f6e-1a71-4f28-b985-4150c443931b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthdate:'])[1]/following::p[1]</value>
+      <webElementGuid>47d48bcc-9ed3-47f9-bac9-406d326b25e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/following::p[2]</value>
+      <webElementGuid>93e1bac8-f126-4dbf-955e-ab459b92e860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number:'])[1]/preceding::p[1]</value>
+      <webElementGuid>2dfc1b30-82b4-451f-adbd-dfde185143d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='jl abc no 1, bandung, jl bcd no 2, jakarta, Bandung, West Java, Indonesia, 40981']/parent::*</value>
+      <webElementGuid>4c66a552-6b43-4023-b532-ad9755e6dd5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p[4]</value>
+      <webElementGuid>ce218339-0d34-4622-975c-f5907a243166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Address: jl abc no 1, bandung, jl bcd no 2, jakarta, Bandung, West Java, Indonesia, 40981' or . = 'Address: jl abc no 1, bandung, jl bcd no 2, jakarta, Bandung, West Java, Indonesia, 40981')]</value>
+      <webElementGuid>751fa011-cae6-40b5-8fde-40dbfe1d8572</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

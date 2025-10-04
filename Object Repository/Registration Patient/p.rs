@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p</name>
+   <tag></tag>
+   <elementGuidId>a0431ccf-c5b0-4603-8edf-12ab4d0ecdc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dataCanvas > div > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataCanvas']/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f8087f17-ea41-4487-b050-89aee81bdaf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name: Fawzi, Ridwan, Supiyaddin</value>
+      <webElementGuid>79191145-b49c-444e-83fc-c289026b8557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataCanvas&quot;)/div[1]/p[1]</value>
+      <webElementGuid>cce1812b-63bb-44f1-8d5f-498503b91aa4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataCanvas']/div/p</value>
+      <webElementGuid>8c100e7e-f627-4f63-98b4-cf1c8a4b2647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Who is the patient related to?'])[1]/following::p[4]</value>
+      <webElementGuid>e0df9e93-df55-4394-bcdd-4a16ed2a2d77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relatives'])[2]/following::p[4]</value>
+      <webElementGuid>534e6b7b-4cfc-489c-91ef-0abec63d5c0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/preceding::p[1]</value>
+      <webElementGuid>97762033-bc15-4212-9a5e-8b24bf3075de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Fawzi, Ridwan, Supiyaddin']/parent::*</value>
+      <webElementGuid>c3ed23b9-0cda-4bae-951a-67f13b012969</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p</value>
+      <webElementGuid>4c551592-bc1c-4b67-8260-3538563e5312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Name: Fawzi, Ridwan, Supiyaddin' or . = 'Name: Fawzi, Ridwan, Supiyaddin')]</value>
+      <webElementGuid>deb6ef00-318e-4292-9ad7-55d477caf797</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
