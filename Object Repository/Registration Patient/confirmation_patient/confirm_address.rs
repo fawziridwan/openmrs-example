@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>confirm_address</name>
+   <tag></tag>
+   <elementGuidId>304046d0-0121-4c8f-b57d-e0eda3e01393</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div > p:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataCanvas']/div/p[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>82f6dd22-7a63-4bfb-8a46-992532604e0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Address: jl abc no 21, jl cde no 22, Bandung, Jawa Barat, Indonesia, 40121</value>
+      <webElementGuid>61de96b0-422b-4cf2-ad80-5538224824fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataCanvas&quot;)/div[1]/p[4]</value>
+      <webElementGuid>e7e78b53-767b-46f2-b8ec-8c20956c501d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataCanvas']/div/p[4]</value>
+      <webElementGuid>633ad84d-631c-41c6-9abf-0693bc6a68d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthdate:'])[1]/following::p[1]</value>
+      <webElementGuid>a306a1be-af63-4e64-b4a2-be530bad3921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/following::p[2]</value>
+      <webElementGuid>85d6baa7-0026-4307-a7a0-5ee9b5c9624b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number:'])[1]/preceding::p[1]</value>
+      <webElementGuid>89241a3a-b473-41fb-be9e-3a18ffdc5690</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='jl abc no 21, jl cde no 22, Bandung, Jawa Barat, Indonesia, 40121']/parent::*</value>
+      <webElementGuid>cf5a2f99-8439-4ba0-b2bf-1f78d34f3465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p[4]</value>
+      <webElementGuid>5c866d2c-cdc5-4637-978a-b43bdaea21c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Address: jl abc no 21, jl cde no 22, Bandung, Jawa Barat, Indonesia, 40121' or . = 'Address: jl abc no 21, jl cde no 22, Bandung, Jawa Barat, Indonesia, 40121')]</value>
+      <webElementGuid>d9108d80-5c77-4531-8cc4-ff4f8c039bca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

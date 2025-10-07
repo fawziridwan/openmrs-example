@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-Find Patient</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f446230c-489c-4165-8521-fc6f65df03a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bae6ae3-34ec-41e5-b22d-17862f39df31</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67e5b504-958b-4fc0-b23b-5cc99916cb41</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'100HM1'</defaultValue>
+      <description></description>
+      <id>3bae6ae3-34ec-41e5-b22d-17862f39df31</id>
+      <masked>false</masked>
+      <name>patient_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Davin Kupi Khairi'</defaultValue>
+      <description></description>
+      <id>67e5b504-958b-4fc0-b23b-5cc99916cb41</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

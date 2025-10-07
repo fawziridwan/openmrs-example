@@ -34,13 +34,53 @@ public class login {
 		WebUI.setText(findTestObject('login/Page_Login/input_Password_password'), password)
 	}
 
-	@Keyword
-	def chooseInpatientWard() {
-		WebUI.click(findTestObject('Object Repository/login/Page_Login/li_You must choose a location_Inpatient Ward'))
-	}
+//	@Keyword
+//	def chooseInpatientWard() {
+//		WebUI.click(findTestObject('Object Repository/login/Page_Login/li_You must choose a location_Inpatient Ward'))
+//	}
 
 	@Keyword
 	def clickLogin() {
 		WebUI.click(findTestObject('Object Repository/login/Page_Login/input_Registration Desk_loginButton'))
+	}
+	
+	@Keyword
+	def performCompleteLogin(String base_url, String username, String password, String location) {
+		// Navigate to login page
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl(base_url)
+		WebUI.maximizeWindow()
+		
+		// Enter credentials
+		WebUI.setText(findTestObject('Object Repository/login/Page_Login/input_Username_username'), username)
+		WebUI.setText(findTestObject('login/Page_Login/input_Password_password'), password)
+		
+		// Choose location based on parameter using XPath
+		String xpathLocation = "//li[@id='${location}']"
+		TestObject locationObject = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathLocation)
+		WebUI.click(locationObject)
+		
+		// Click login button
+		WebUI.click(findTestObject('Object Repository/login/Page_Login/input_Registration Desk_loginButton'))
+		
+		// Optional: Add verification that login was successful
+		WebUI.getWindowTitle()
+		WebUI.getUrl()
+	}
+
+	// Method khusus untuk memilih lokasi dengan XPath
+	@Keyword
+	def chooseLocation(String locationName) {
+		String xpathLocation = "//li[@id='${locationName}']"
+		TestObject locationObject = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathLocation)
+		WebUI.click(locationObject)
+	}
+
+	@Keyword
+	def chooseInpatientWard() {
+		// Menggunakan XPath untuk Inpatient Ward
+		String xpathLocation = "//li[@id='Inpatient Ward']"
+		TestObject locationObject = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathLocation)
+		WebUI.click(locationObject)
 	}
 }

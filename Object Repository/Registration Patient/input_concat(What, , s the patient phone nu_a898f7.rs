@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='fr954-field']</value>
+         <value>//input[@name=&quot;phoneNumber&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>06de2037-9d00-46d7-953b-1831375852ff</webElementGuid>
+      <webElementGuid>2ab6a199-66c3-4f01-839c-91d809ef5030</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9de4391e-b804-4bbc-a334-0edd470e2e0c</webElementGuid>
+      <webElementGuid>d7f94b4d-286d-48a7-ba59-a3622278911a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>fr954-field</value>
-      <webElementGuid>4e0b8413-9052-4d72-8057-b9a784705121</webElementGuid>
+      <webElementGuid>19269be0-1982-4afd-bfff-b4477c33abc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>phoneNumber</value>
-      <webElementGuid>31f7b9c6-c65c-4211-8302-0a40057a5501</webElementGuid>
+      <webElementGuid>953fe2da-2135-4013-ac2b-72d57e3709ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>phone focused</value>
-      <webElementGuid>e2f77b68-cd50-4e1c-930c-127fb74de715</webElementGuid>
+      <webElementGuid>93946794-9f96-4a9f-920e-cad71cde7e4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;fr954-field&quot;)</value>
-      <webElementGuid>5fb16321-13f7-4ef7-a6a1-1b38b4101fec</webElementGuid>
+      <webElementGuid>c96cf4fe-575d-48a5-a0a5-c7e2d4cc4df5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='fr954-field']</value>
-      <webElementGuid>d87f571b-386e-4452-9e14-93ce6b9b9ce6</webElementGuid>
+      <webElementGuid>6461695a-a85f-49ec-b81f-919ad6164ce5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='phoneNumberLabel']/p/input</value>
-      <webElementGuid>1b17924b-110f-48d4-a120-823d0f7de8aa</webElementGuid>
+      <webElementGuid>540dd3c3-82a8-4b85-a8ba-1a6ef73c5af5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[2]/p/input</value>
-      <webElementGuid>d89b1e8b-fe3a-4383-a52d-046b535b6af5</webElementGuid>
+      <webElementGuid>0f0c5e3f-a6c9-4f1b-9f15-7b6542ac21d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'fr954-field' and @name = 'phoneNumber']</value>
-      <webElementGuid>01461e2e-8bbf-42cc-ad84-beb42e02a189</webElementGuid>
+      <webElementGuid>0a1b73f8-ffeb-4b6b-b35e-4f790ad196aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

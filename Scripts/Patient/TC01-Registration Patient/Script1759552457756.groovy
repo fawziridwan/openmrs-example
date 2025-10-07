@@ -17,32 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://o2.openmrs.org/openmrs/login.htm')
-
-WebUI.setText(findTestObject('Object Repository/Registration Patient/input_Username_username'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration Patient/input_Password_password'), '/5S6MFFLcE4mlsixtc6/Tg==')
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/li_You must choose a location_Inpatient Ward'))
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/input_Registration Desk_loginButton'))
+CustomKeywords.'login.performCompleteLogin'(GlobalVariable.base_url, GlobalVariable.email, GlobalVariable.password, GlobalVariable.location)
 
 WebUI.click(findTestObject('Object Repository/Registration Patient/btn_registration_patient'))
 
-WebUI.setText(findTestObject('Object Repository/Registration Patient/input_(required)_fr3682-field'), 'Fawzi')
+WebUI.setText(findTestObject('Registration Patient/input_given_name'), 'Davin')
 
-WebUI.setText(findTestObject('Object Repository/Registration Patient/input_Middle_fr4337-field'), 'Ridwan')
+WebUI.setText(findTestObject('Object Repository/Registration Patient/input_Middle_fr4337-field'), 'Kupi')
 
-WebUI.setText(findTestObject('Object Repository/Registration Patient/input_familyname'), 'Supiyaddin')
+WebUI.setText(findTestObject('Object Repository/Registration Patient/input_familyname'), 'Khairi')
 
 WebUI.click(findTestObject('Object Repository/Registration Patient/icon_Confirm submission_fas fa-chevron-right'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Registration Patient/select_(required)_gender-field'), 'M', 
     true)
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/button_Confirm submission_next-button'))
+WebUI.click(findTestObject('Registration Patient/icon_Confirm submission_fas fa-chevron-right'))
 
 WebUI.setText(findTestObject('Object Repository/Registration Patient/input_(required)_birthdateDay-field'), '14')
 
@@ -51,7 +41,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Registration Patient
 
 WebUI.setText(findTestObject('Object Repository/Registration Patient/input_(required)_birthdateYear-field'), '1995')
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/icon_Confirm submission_fas fa-chevron-right'))
+WebUI.click(findTestObject('Registration Patient/icon_Confirm submission_fas fa-chevron-right'))
 
 WebUI.setText(findTestObject('Object Repository/Registration Patient/input_Address_address1'), 'jl abc no 1, bandung')
 
@@ -82,31 +72,57 @@ WebUI.click(findTestObject('Object Repository/Registration Patient/icon_Confirm 
 
 WebUI.click(findTestObject('Object Repository/Registration Patient/div_Who is the patient related to_confirmation'))
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/p'))
+//'Step 1: Get confirmation data'
+String rawData = WebUI.getText(findTestObject('Registration Patient/confirmation_patient/confirm_data'))
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/p_1'))
+//'Step 2: Simple parsing tanpa function complex'
+def patientInfo = [:]
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/p_2'))
+// Extract data menggunakan split yang sederhana
+def lines = rawData.split('\n')
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/p_3'))
+lines.each({ def line ->
+        if (line.contains('Name:')) {
+            (patientInfo['name']) = line.replace('Name:', '').trim()
+        } else if (line.contains('Gender:')) {
+            (patientInfo['gender']) = line.replace('Gender:', '').trim()
+        } else if (line.contains('Birthdate:')) {
+            (patientInfo['birthdate']) = line.replace('Birthdate:', '').trim()
+        } else if (line.contains('Address:')) {
+            (patientInfo['address']) = line.replace('Address:', '').trim()
+        } else if (line.contains('Phone Number:')) {
+            (patientInfo['phone']) = line.replace('Phone Number:', '').trim()
+        } else if (line.contains('Relatives:')) {
+            (patientInfo['relatives']) = line.replace('Relatives:', '').trim()
+        }
+    })
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/p_4'))
+//'Step 3: Verify each field is present and correct'
+WebUI.verifyElementPresent(findTestObject('Registration Patient/confirmation_patient/confirm_data'), 10)
 
-WebUI.click(findTestObject('Object Repository/Registration Patient/p_5'))
+// Verify fields exist and are not null
+WebUI.verifyMatch(, , false)
+
+WebUI.verifyMatch(, , false)
+
+WebUI.verifyMatch(, , false)
+
+WebUI.verifyMatch(, , false)
+
+//'Step 4: Log results for reporting'
+println('=== PARSED PATIENT DATA ===')
+
+println('Name: ' + (patientInfo['name']))
+
+println('Gender: ' + (patientInfo['gender']))
+
+println('Birthdate: ' + (patientInfo['birthdate']))
+
+println('Phone: ' + (patientInfo['phone']))
+
+println('Address: ' + (patientInfo['address']))
+
+println('Relatives: ' + (patientInfo['relatives']))
 
 WebUI.click(findTestObject('Object Repository/Registration Patient/input_Confirm submission_submit'))
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/p_6'))
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/span'))
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/i_Registration Desk_icon-home small'))
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/a_Logged in as Super User (admin) at Inpati_f299ab'))
-
-WebUI.setText(findTestObject('Object Repository/Registration Patient/input_Find Patient Record_patient-search'), '100JCL')
-
-WebUI.click(findTestObject('Object Repository/Registration Patient/td'))
-
-WebUI.closeBrowser()
 
